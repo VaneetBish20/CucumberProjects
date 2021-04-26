@@ -32,7 +32,7 @@ private WebDriver driver;
 		this.driver = driver;
 	}
 			
-	// 3. page actions: features(behavior) of the page the form of methods:
+	// 3. page actions: features(behaviour) of the page the form of methods:
 			
 			public void entertask1(String taskname1) {
 				driver.findElement(ToDoMonTask).sendKeys(taskname1);
