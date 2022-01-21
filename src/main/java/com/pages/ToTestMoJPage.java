@@ -9,6 +9,7 @@ public class ToTestMoJPage {
 	
 	private By Organis = By.xpath("//a[normalize-space()='Organisations']");
 	//private By TitleText = By.xpath("//input[@placeholder='What needs to be done?']");
+	// test basic feature
 	
 	public ToTestMoJPage(WebDriver driver) {
 		this.driver = driver;
